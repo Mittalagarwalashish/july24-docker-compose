@@ -1,0 +1,114 @@
+Microsoft Windows [Version 10.0.19044.1766]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>cd Downloads
+
+C:\Users\DELL\Downloads>ssh -i ashish-agarwal.pem ec2-user@13.235.27.241
+Warning: Identity file ashish-agarwal.pem not accessible: No such file or directory.
+ec2-user@13.235.27.241: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+C:\Users\DELL\Downloads>ssh -i ashish_agarwal.pem ec2-user@13.235.27.241
+Last login: Sun Jul 24 11:32:18 2022 from 27.58.10.71
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+12 package(s) needed for security, out of 22 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-32-11 ~]$ history
+    1  sudo yum install docker -y
+    2  wget https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)
+    3  ls
+    4  sudo mv docker-compose-$(uname -s)-$(uname -m) /usr/local/bin/docker-compose
+    5  sudo chmod -v +x /usr/local/bin/docker-compose
+    6  docker-compose  version
+    7  vi Dockerfile
+    8  vi index.html
+    9  docker build -t xyz:v2 .
+   10  yum install docker -y
+   11  sudo yum install docker -y
+   12  systemcl enable --now docker
+   13  systemctl enable --now docker
+   14  sudo systemctl enable --now docker
+   15  docker build -t xyz:v2 .
+   16  sudo docker build -t xyz:v2 .
+   17  mkdir example
+   18  cd example/
+   19  vi docker-compose.yaml
+   20  docker-compose up
+   21  sudo docker-compose up
+   22  cat docker-compose.yaml
+   23  vi docker-compose.yaml
+   24  docker-compose up
+   25  sudo docker-compose up
+   26  docker-compose up
+   27  sudo docker-compose up
+   28  cat docker-compose.yaml
+   29  docker-compose up
+   30  sudo docker-compose up
+   31  docker images
+   32  sudo docker images
+   33  sudo docker-compose up -d
+   34  docker-compose up -d
+   35  docker ps
+   36  sudo docker ps
+   37  ls
+   38  cp docker-compose.yaml /usr/bin
+   39  sudo cp docker-compose.yaml /usr/bin
+   40  docker-compose up -d
+   41  sudo docker-compose up -d
+   42  sudo -i
+   43  exit
+   44  cd example/
+   45  docker-compose up -d
+   46  vi docker-compose.yaml
+   47  cat docker-compose.yaml
+   48  docker-compose up -d
+   49  docker ps
+   50  docker ps -a
+   51  docker pull httpd
+   52  vi docker-compose.yaml
+   53  docker-compose up -d
+   54  docker ps -a
+   55  docker pull nginx
+   56  vi docker-compose.yaml
+   57  docker-compose up -d
+   58  vi docker-compose.yaml
+   59  docker-compose up -d
+   60  cat docker-compose.yaml
+   61  vi docker-compose.yaml
+   62  docker-compose up -d
+   63  cat docker-compose.yaml
+   64  vi docker-compose.yaml
+   65  mkdir webdata
+   66  sudo cp docker-compose.yaml webdata/docker-compose.yml
+   67  cd webdata/
+   68  vi docker-compose.yml
+   69  cat docker-compose.yaml
+   70  cat docker-compose.yml
+   71  docker-compose up -d
+   72  index.html
+   73  vi index.html
+   74  vi docker-compose.yml
+   75  docker-compose up -d
+   76  vi docker-compose.yml
+   77  docker-compose up -d
+   78  sudo yum istall git -y
+   79  sudo yum install git -y
+   80  git init
+   81  ls
+   82  git add docker-compose.yml
+   83  git commit docker-compose.yml
+   84   git config --global --edit
+   85  git commit --amend --reset-author
+   86  git remote add origin https://github.com/Mittalagarwalashish/july24-docker-compose.git
+   87  git push origin master
+   88  exit
+   89  history
+[ec2-user@ip-172-31-32-11 ~]$ exit
+logout
+Connection to 13.235.27.241 closed.
+
+C:\Users\DELL\Downloads>
